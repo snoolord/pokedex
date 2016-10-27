@@ -16,5 +16,4 @@ document.addEventListener("DOMContentLoaded", () => {
   window.store = store;
   const rootEl = document.getElementById('root');
   ReactDOM.render( <Root store={store}/>, rootEl);
-  // store.dispatch(requestAllPokemon());
 });
